@@ -1,0 +1,25 @@
+.splash-image{
+  height: auto;
+  width: 50%;
+}
+
+li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px
+}
+li {
+  display: inline;
+  margin: 2px 15px 0px 15px;
+}
+
+.container{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.container > div{
+  flex-basis: 45%
+}
+
